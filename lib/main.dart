@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp( HomePage() );
+  runApp( const HomePage() );
 }
 
 class HomePage extends StatelessWidget {
