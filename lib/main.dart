@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialAp(home: HomePage()));
+  runApp(const MaterialApp(home: HomePage()));
 }
 
 class HomePage extends StatefulWidget {
