@@ -19,7 +19,7 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(tile: const Text("Appli"), elevation: 12),
+      appBar: AppBar(title: const Text("Appli"), elevation: 12),
       body: Center(child: Text("Bonjour $counter")),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
